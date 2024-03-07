@@ -435,5 +435,15 @@
       "ui/tooltip.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "vertical-navigation",
+    "dependencies": [
+      "@radix-ui/react-slot"
+    ],
+    "files": [
+      "ui/vertical-navigation.tsx"
+    ],
+    "type": "components:ui"
   }
 ]
