@@ -269,7 +269,7 @@ const ui: Registry = [
     type: "components:ui",
     dependencies: ["@radix-ui/react-slot"],
     files: ["ui/vertical-navigation.tsx"],
-  }
+  },
 ]
 
 const example: Registry = [
@@ -1058,7 +1058,7 @@ const example: Registry = [
     type: "components:example",
     registryDependencies: ["avatar, vertical-navigation"],
     files: ["example/vertical-navigation-demo.tsx"],
-  }
+  },
 ]
 
 export const registry: Registry = [...ui, ...example]
