@@ -339,6 +339,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/tooltip",
           items: [],
         },
+        {
+          title: "Vertical Navigation",
+          href: "/docs/components/vertical-navigation",
+          items: [],
+        },
       ],
     },
   ],

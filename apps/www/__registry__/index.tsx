@@ -327,6 +327,13 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/ui/tooltip")),
       files: ["registry/default/ui/tooltip.tsx"],
     },
+    "vertical-navigation": {
+      name: "vertical-navigation",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/ui/vertical-navigation")),
+      files: ["registry/default/ui/vertical-navigation.tsx"],
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "components:example",
@@ -1419,6 +1426,13 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/default/example/cards")),
       files: ["registry/default/example/cards/cards.tsx"],
     },
+    "vertical-navigation-demo": {
+      name: "vertical-navigation-demo",
+      type: "components:example",
+      registryDependencies: ["avatar, vertical-navigation"],
+      component: React.lazy(() => import("@/registry/default/example/vertical-navigation-demo")),
+      files: ["registry/default/example/vertical-navigation-demo.tsx"],
+    },
   },  "new-york": {
     "accordion": {
       name: "accordion",
@@ -1741,6 +1755,13 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       component: React.lazy(() => import("@/registry/new-york/ui/tooltip")),
       files: ["registry/new-york/ui/tooltip.tsx"],
+    },
+    "vertical-navigation": {
+      name: "vertical-navigation",
+      type: "components:ui",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/ui/vertical-navigation")),
+      files: ["registry/new-york/ui/vertical-navigation.tsx"],
     },
     "accordion-demo": {
       name: "accordion-demo",
@@ -2833,6 +2854,13 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       component: React.lazy(() => import("@/registry/new-york/example/cards")),
       files: ["registry/new-york/example/cards/cards.tsx"],
+    },
+    "vertical-navigation-demo": {
+      name: "vertical-navigation-demo",
+      type: "components:example",
+      registryDependencies: ["avatar, vertical-navigation"],
+      component: React.lazy(() => import("@/registry/new-york/example/vertical-navigation-demo")),
+      files: ["registry/new-york/example/vertical-navigation-demo.tsx"],
     },
   },
 }
